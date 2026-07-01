@@ -25,11 +25,8 @@ function Navbar({ onMenuClick }) {
         </button>
         <div className="flex items-center gap-2">
           <TrendingUp size={20} className="text-blue-700 dark:text-blue-400" />
-          <span className="font-bold text-blue-700 dark:text-blue-400 text-lg tracking-tight">Moody's</span>
+          <span className="font-bold text-blue-700 dark:text-blue-400 text-lg tracking-tight">Risk Analytics</span>
         </div>
-        <span className="hidden sm:block text-sm text-neutral-400 dark:text-neutral-500 font-medium">
-          Risk Analytics
-        </span>
       </div>
 
       <div className="flex items-center gap-2">

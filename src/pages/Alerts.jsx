@@ -4,15 +4,9 @@ import { AlertTriangle, ArrowLeft, ChevronUp, ChevronDown, ChevronsUpDown } from
 import { Navbar, Sidebar } from '../components/dashboard'
 import { Badge } from '../components/ui'
 import Skeleton from '../components/ui/Skeleton'
-import { ratingsData, RATING_SCORE } from '../data/mockData'
+import { ratingsData } from '../data/mockData'
 import { cn } from '../lib/cn'
-
-function getSeverity(prev, curr) {
-  const drop = (RATING_SCORE[prev] ?? 10) - (RATING_SCORE[curr] ?? 10)
-  if (drop >= 3) return 'High'
-  if (drop >= 2) return 'Medium'
-  return 'Low'
-}
+import { getSeverity } from '../lib/severity'
 
 const SEVERITY_VARIANT = { High: 'danger', Medium: 'warning', Low: 'info' }
 const SEVERITY_ORDER   = { High: 0, Medium: 1, Low: 2 }

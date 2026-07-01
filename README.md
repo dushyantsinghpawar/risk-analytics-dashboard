@@ -2,7 +2,19 @@
 
 A credit risk monitoring dashboard concept for financial analysts tracking corporate rating changes across a 40-company global portfolio. Built from scratch as a portfolio project to demonstrate professional-grade frontend engineering — not affiliated with or endorsed by any rating agency.
 
-**[Live Demo](https://moodys-dashboard.vercel.app)** · Demo login: any email + a 6+ character password
+**[Live Demo](https://risk-analytics-dashboard.vercel.app)** · Demo login: any email + a 6+ character password
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+<details>
+<summary>More screenshots (login, dark mode, alerts, portfolio)</summary>
+
+| | |
+|---|---|
+| ![Login](docs/screenshots/login.png) | ![Dashboard dark mode](docs/screenshots/dashboard-dark.png) |
+| ![Alerts](docs/screenshots/alerts.png) | ![Portfolio](docs/screenshots/portfolio.png) |
+
+</details>
 
 ## Features
 
@@ -43,6 +55,7 @@ Other scripts:
 npm run build     # production build to dist/
 npm run preview   # preview the production build locally
 npm run lint      # eslint
+npm run test      # vitest — hook logic + severity scoring
 ```
 
 ## Project Structure

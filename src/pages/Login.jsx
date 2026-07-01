@@ -41,8 +41,8 @@ function Login() {
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-blue-50 dark:bg-blue-900/30 mb-3">
             <TrendingUp size={24} className="text-blue-700 dark:text-blue-400" />
           </div>
-          <h1 className="text-2xl font-bold text-blue-700 dark:text-blue-400 tracking-tight">Moody's</h1>
-          <p className="text-sm text-neutral-500 dark:text-neutral-400 mt-1">Risk Analytics Dashboard</p>
+          <h1 className="text-2xl font-bold text-blue-700 dark:text-blue-400 tracking-tight">Risk Analytics</h1>
+          <p className="text-sm text-neutral-500 dark:text-neutral-400 mt-1">Credit Risk Monitoring Dashboard</p>
         </div>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-5" noValidate>
@@ -51,7 +51,7 @@ function Login() {
             label="Email"
             type="email"
             autoComplete="email"
-            placeholder="you@moodys.com"
+            placeholder="you@example.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             leftIcon={<Mail size={15} />}
