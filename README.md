@@ -2,7 +2,7 @@
 
 A credit risk monitoring dashboard concept for financial analysts tracking corporate rating changes across a 40-company global portfolio. Built from scratch as a portfolio project to demonstrate professional-grade frontend engineering — not affiliated with or endorsed by any rating agency.
 
-**[Live Demo](#)** · Demo login: any email + a 6+ character password
+**[Live Demo](https://moodys-dashboard.vercel.app)** · Demo login: any email + a 6+ character password
 
 ## Features
 
